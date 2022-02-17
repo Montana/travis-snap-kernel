@@ -19,9 +19,6 @@ addons:
     - name: lxd
       channel: stable
       
- before_install: 
-  - sudo apt-get update
-      
 script:
   - sudo usermod --append --groups lxd $USER
   - sudo /snap/bin/lxd.migrate -yes
