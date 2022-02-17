@@ -1,7 +1,6 @@
 language: shell
 dist: xenial
 os: linux
-group: stable
 
 env:
   global:
