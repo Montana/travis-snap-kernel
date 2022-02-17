@@ -25,7 +25,6 @@ script:
   - sudo /snap/bin/lxd waitready
   - sudo /snap/bin/lxd init --auto
   - sudo apt install snapd
-  - sudo apt-get build-dep linux-image-$(uname -r)
   - sudo snap install hello-world
   - sudo snap install nethack
   - snap version 
