@@ -17,7 +17,7 @@ addons:
       confinement: classic
     - name: lxd
       channel: stable
-      
+
 script:
   - sudo usermod --append --groups lxd $USER
   - sudo /snap/bin/lxd.migrate -yes
